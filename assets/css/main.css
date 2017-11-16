@@ -107,24 +107,26 @@ ul {
     margin-bottom: 0; }
   .container .game .right.panel {
     float: right; }
-  .container .game .play-by-play .update {
-    border-bottom: 1px #cccccc solid;
-    display: inline-block;
-    width: 100%;
-    height: 95px;
-    padding: 10px 0; }
-    .container .game .play-by-play .update > div {
-      float: left; }
-    .container .game .play-by-play .update .player-pic {
-      background-size: contain;
-      width: 50px;
-      height: 50px; }
-    .container .game .play-by-play .update .player-pic.stephen-curry {
-      background-image: url(/assets/images/players/stephen-curry.png); }
-    .container .game .play-by-play .update .player-pic.klay-thompson {
-      background-image: url(/assets/images/players/klay-thompson.png); }
-    .container .game .play-by-play .update .player-pic.kevin-durant {
-      background-image: url(/assets/images/players/kevin-durant.png); }
+  .container .game .play-by-play {
+    height: auto; }
+    .container .game .play-by-play .update {
+      border-bottom: 1px #cccccc solid;
+      display: inline-block;
+      width: 100%;
+      height: auto;
+      padding: 10px 0; }
+      .container .game .play-by-play .update > div {
+        float: left; }
+      .container .game .play-by-play .update .player-pic {
+        background-size: contain;
+        width: 50px;
+        height: 50px; }
+      .container .game .play-by-play .update .player-pic.stephen-curry {
+        background-image: url(/assets/images/players/stephen-curry.png); }
+      .container .game .play-by-play .update .player-pic.klay-thompson {
+        background-image: url(/assets/images/players/klay-thompson.png); }
+      .container .game .play-by-play .update .player-pic.kevin-durant {
+        background-image: url(/assets/images/players/kevin-durant.png); }
 .container .scoring {
   background-color: #ffff;
   height: 100%;
@@ -218,7 +220,9 @@ footer {
     opacity: 0.5;
     left: 20%; }
   .container .game .score-board .info .court-side {
-    width: 50%; } }
+    width: 50%; }
+  .container .game .play-by-play .update .update-info {
+    width: 55%; } }
 @media only screen and (max-width: 380px) {
   .container {
     padding-right: 0;

@@ -172,11 +172,12 @@ ul {
 			float: right;
 		}
 		.play-by-play {
+			height: auto;
 			.update {
 				border-bottom: $borderDefault;
 				display: inline-block;
 				width: 100%;
-				height: 95px;
+				height: auto;
 				padding: 10px 0; 
 				& > div {
 					float: left; 
@@ -342,6 +343,14 @@ footer {
 					}
 					.court-side {
 						width: 50%;
+					}
+				}
+			}
+
+			.play-by-play {
+				.update {
+					.update-info {
+						width: 55%;
 					}
 				}
 			}
