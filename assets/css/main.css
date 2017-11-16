@@ -1,0 +1,265 @@
+body {
+  font: 100% 12px Gotham, Arial, sans-serif;
+  background: #cccccc; }
+
+div {
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+ul {
+  list-style-type: none; }
+
+.left {
+  float: left; }
+
+.center {
+  float: left; }
+
+.right {
+  float: right;
+  text-align: right; }
+
+.navbar-inverse .navbar-nav {
+  margin-top: 10px; }
+  .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+    background-color: #666666; }
+  .navbar-inverse .navbar-nav li a {
+    line-height: 90%; }
+.navbar-inverse .navbar-right li a {
+  border-right: 1px #666666 solid; }
+.navbar-inverse .navbar-right li.funds a {
+  text-align: right;
+  border-right: none; }
+.navbar-inverse .navbar-right button {
+  background-color: #669933;
+  padding: 10px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: #ffffff; }
+
+.container h5 {
+  background-color: #000000;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 15px;
+  margin-top: 0; }
+.container .game {
+  display: inline-block; }
+  .container .game > div {
+    background-color: #ffff; }
+  .container .game .score-board {
+    height: 445px;
+    font-size: 13pt; }
+    .container .game .score-board .score-head {
+      width: 100%;
+      padding: 15px 10px;
+      display: inline-block; }
+      .container .game .score-board .score-head .team-head div {
+        float: left; }
+      .container .game .score-board .score-head .team-head .score {
+        float: right;
+        font-size: 24pt;
+        font-weight: bold; }
+      .container .game .score-board .score-head .team-head.right .score {
+        float: left; }
+      .container .game .score-board .score-head .team-head.right .team-name {
+        float: right; }
+      .container .game .score-board .score-head .center {
+        border-left: 1px #cccccc solid;
+        border-right: 1px #cccccc solid;
+        text-align: center;
+        font-size: 13px; }
+    .container .game .score-board .alert {
+      text-transform: uppercase;
+      width: 100%;
+      text-align: center;
+      display: inline-block;
+      background-color: #eeeae6;
+      font-size: 12pt; }
+    .container .game .score-board .golden {
+      color: #ffcc00; }
+    .container .game .score-board .thunder {
+      color: #0066cc; }
+    .container .game .score-board .info {
+      padding-top: 15px; }
+      .container .game .score-board .info > div {
+        float: left; }
+      .container .game .score-board .info .court-side {
+        width: 20%;
+        text-align: center;
+        padding-bottom: 15px; }
+        .container .game .score-board .info .court-side .percent {
+          padding: 10px 0; }
+          .container .game .score-board .info .court-side .percent span {
+            padding-bottom: 10px; }
+        .container .game .score-board .info .court-side .percent:not(:last-child) span {
+          border-bottom: 1px #cccccc solid; }
+      .container .game .score-board .info .court {
+        background-image: url(/assets/images/basketballcourt.png);
+        height: 225px;
+        width: 440px; }
+  .container .game .panel {
+    margin-top: 15px;
+    padding: 0;
+    width: 49%;
+    height: 535px;
+    margin-bottom: 0; }
+  .container .game .right.panel {
+    float: right; }
+  .container .game .play-by-play .update {
+    border-bottom: 1px #cccccc solid;
+    display: inline-block;
+    width: 100%;
+    height: 95px;
+    padding: 10px 0; }
+    .container .game .play-by-play .update > div {
+      float: left; }
+    .container .game .play-by-play .update .player-pic {
+      background-size: contain;
+      width: 50px;
+      height: 50px; }
+    .container .game .play-by-play .update .player-pic.stephen-curry {
+      background-image: url(/assets/images/players/stephen-curry.png); }
+    .container .game .play-by-play .update .player-pic.klay-thompson {
+      background-image: url(/assets/images/players/klay-thompson.png); }
+    .container .game .play-by-play .update .player-pic.kevin-durant {
+      background-image: url(/assets/images/players/kevin-durant.png); }
+.container .scoring {
+  background-color: #ffff;
+  height: 100%;
+  padding: 0; }
+  .container .scoring ul {
+    padding: 0; }
+  .container .scoring li {
+    text-transform: uppercase;
+    border-bottom: 1px #cccccc solid;
+    padding: 10px 15px; }
+    .container .scoring li .highlight {
+      color: #70a041;
+      font-weight: bold; }
+
+footer {
+  background-color: #616a71;
+  color: #90969b;
+  padding: 0 20px; }
+  footer ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333; }
+    footer ul li {
+      color: #666666;
+      float: left;
+      padding: 10px;
+      border: 1px #666666 solid;
+      width: 25%;
+      padding-right: 100px; }
+      footer ul li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none; }
+    footer ul li.active {
+      background-color: #71ab3e;
+      color: #ffff;
+      font-weight: bold; }
+  footer .score-suspender {
+    height: 100px;
+    background-color: #4f5961; }
+    footer .score-suspender div {
+      float: left; }
+    footer .score-suspender .score {
+      float: right;
+      font-weight: bold; }
+    footer .score-suspender .team-name {
+      text-transform: uppercase; }
+    footer .score-suspender .game-details {
+      background-color: #616a71;
+      color: #ffffff; }
+      footer .score-suspender .game-details > div {
+        float: left;
+        height: 100%;
+        padding: 25px 25px 25px 0;
+        display: inline-block; }
+    footer .score-suspender .game {
+      background-color: #4f5961;
+      width: 110px;
+      float: left;
+      height: 100%;
+      padding: 25px 17px;
+      border-right: 1px #cccccc solid; }
+
+@media only screen and (max-width: 1025px) {
+  .container .game .score-board .info .court {
+    width: 400px; }
+  .container .scoring {
+    height: 72%; } }
+@media only screen and (max-width: 770px) {
+  .contain .game {
+    display: inline-block; }
+  .contain .scoring {
+    width: 100%;
+    display: inline-block;
+    position: relative; }
+
+  footer {
+    width: 100%;
+    overflow: scroll; }
+    footer .leagues {
+      width: 1000px; }
+    footer .score-suspender {
+      width: 2000px; } }
+@media only screen and (max-width: 670px) {
+  .container .game .score-board .info .court {
+    background-size: cover;
+    position: absolute;
+    opacity: 0.5;
+    left: 20%; }
+  .container .game .score-board .info .court-side {
+    width: 50%; } }
+@media only screen and (max-width: 380px) {
+  .container {
+    padding-right: 0;
+    padding-left: 0;
+    margin-left: 0;
+    margin-right: 0; }
+    .container .game {
+      margin-left: 0;
+      margin-right: 0;
+      padding-left: 0;
+      padding-right: 0; }
+      .container .game .score-board {
+        height: 550px; }
+        .container .game .score-board .score-head .center {
+          width: 100%; }
+        .container .game .score-board .score-head .team-head {
+          width: 100%; }
+        .container .game .score-board .score-head .team-head.right .team-name {
+          float: left; }
+        .container .game .score-board .score-head .team-head.right .score {
+          float: right; }
+        .container .game .score-board .info {
+          background-size: cover;
+          display: inline-block;
+          width: 100%; }
+          .container .game .score-board .info .court {
+            width: 100%;
+            background-size: cover;
+            position: absolute;
+            opacity: 0.5;
+            left: 0; }
+          .container .game .score-board .info .court-side {
+            position: relative;
+            width: 45%; }
+      .container .game .panel {
+        width: 100%; }
+        .container .game .panel .update .update-info {
+          width: 60%; }
+      .container .game .stats.panel {
+        height: auto; }
+    .container .scoring {
+      height: auto; } }
+
+/*# sourceMappingURL=main.css.map */
